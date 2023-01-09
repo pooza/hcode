@@ -14,7 +14,8 @@ collections:
     folder: "hitowa"
     create: true
     slug: "{{slug}}"
-    preview_path: dist/{{title}}.html
+    preview_path: hitowa/{{title}}.html
+    identifier_field: title
     editor:
       preview: true
     fields:
