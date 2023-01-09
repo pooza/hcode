@@ -15,6 +15,7 @@ collections:
     create: true
     slug: "{{slug}}"
     preview_path: dist/{{title}}.html
+    identifier_field: title
     editor:
       preview: true
     fields:
